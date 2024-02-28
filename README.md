@@ -7,3 +7,6 @@
 > Grateful to [Prof. Huamin Qu](http://www.huamin.org/), and anonymous reviewers for their comments on this work.
 
 https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-895c-b5375ef51425
+
+
+<strong>The code, checkpoints and camera-ready paper are still being prepared. They will be released released when they are sorted out!</strong>
