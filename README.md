@@ -7,6 +7,15 @@
 > Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱ <br>
 > Grateful to [Prof. Huamin Qu](http://www.huamin.org/), and anonymous reviewers for their comments on this work.
 
+```
+@inproceedings{mocha,
+  title={MoCha-Stereo: Motif Channel Attention Network for Stereo Matching},
+	author={Chen, Ziyang and Long, Wei and Yao, He and Zhang, Yongjun and Wang, Bingshu and Qin, Yongbin and Wu, Jia},
+	booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+	year={2024}
+}
+```
+
 https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-895c-b5375ef51425
 
 
