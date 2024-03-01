@@ -7,7 +7,7 @@
 > Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱ <br>
 > Grateful to [Prof. Huamin Qu](http://www.huamin.org/), and anonymous reviewers for their comments on this work.
 
-```
+```bibtex
 @inproceedings{mocha,
   title={MoCha-Stereo: Motif Channel Attention Network for Stereo Matching},
 	author={Chen, Ziyang and Long, Wei and Yao, He and Zhang, Yongjun and Wang, Bingshu and Qin, Yongbin and Wu, Jia},
