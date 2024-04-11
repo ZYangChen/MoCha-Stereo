@@ -49,6 +49,6 @@ or
 ## Revision
 There is a writing error in the paper published on cvpr. Please refer to the Arxiv version. 
 <div align="center">
-  <img width="500", src="./Revision/wrong1.png">
-  <img width="500", src="./Revision/right1.png">
+  <img width="300", src="./Revision/wrong1.png">
+  <img width="300", src="./Revision/right1.png">
 </div>
