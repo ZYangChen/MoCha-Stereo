@@ -45,3 +45,10 @@ or
     - [ ] Code of MoCha-MVS
           
 <strong>The code and checkpoints are still being prepared. They will be released when they are sorted out!</strong>
+
+## Revision
+There is a writing error in the paper published on cvpr. Please refer to the Arxiv version. 
+<div align="center">
+  <img width="1600", src="./Revision/wrong1.png">
+  <img width="1600", src="./Revision/right1.png">
+</div>
