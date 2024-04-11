@@ -27,7 +27,17 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 	year={2024}
 }
 ```
-
+or
+```bibtex
+@misc{chen2024mochastereo,
+      title={MoCha-Stereo: Motif Channel Attention Network for Stereo Matching}, 
+      author={Ziyang Chen and Wei Long and He Yao and Yongjun Zhang and Bingshu Wang and Yongbin Qin and Jia Wu},
+      year={2024},
+      eprint={2404.06842},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 ## Todo List
  - [CVPR2024] V1 version
     - [X] Preprint paper
