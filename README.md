@@ -47,4 +47,4 @@ or
 <strong>The code and checkpoints are still being prepared. They will be released when they are sorted out!</strong>
 
 ## Acknowledgements
-We borrow the code from [<strong>IGEV</strong>](https://github.com/gangweiX/IGEV), [DLNR](https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [GwcNet](https://github.com/xy-guo/GwcNet). We thank the original authors for their excellent work!
+This project borrows the code from [<strong>IGEV</strong>](https://github.com/gangweiX/IGEV), [DLNR](https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [GwcNet](https://github.com/xy-guo/GwcNet). We thank the original authors for their excellent works!
