@@ -46,11 +46,5 @@ or
           
 <strong>The code and checkpoints are still being prepared. They will be released when they are sorted out!</strong>
 
-<!--
-## Revision
-There is a writing error in the paper published on cvpr. Please refer to the Arxiv version. 
-<div align="center">
-  <img width="300", src="./Revision/wrong1.png">
-  <img width="300", src="./Revision/right1.png">
-</div>
--->
+## Acknowledgements
+We borrow the code from [IGEV](https://github.com/gangweiX/IGEV), [DLNR](https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [GwcNet](https://github.com/xy-guo/GwcNet). We express gratitude for these works' contributions!
