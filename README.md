@@ -39,7 +39,7 @@ or
 ## Todo List
  - [CVPR2024] V1 version
     - [X] Preprint paper
-    - [ ] Code of MoCha-Stereo (1. MoCha-Stereo will be made public in this repository in <strong>July, 2024</strong>. 2. For researchers at Guizhou University, I have made the code available in [our internal repository](https://github.com/GZU-ZhangYJ-group/mocha-stereo-early-access). Therefore, you do not need to contact me to get the code, just request access to the repository.)
+    - [ ] Code of MoCha-Stereo (1. MoCha-Stereo will be released in this repository in <strong>July, 2024</strong>. 2. For researchers at Guizhou University, I have made the code available in [our internal repository](https://github.com/GZU-ZhangYJ-group/mocha-stereo-early-access). Therefore, you do not need to contact me to get the code, just request access to the repository.)
     - [ ] Code of MoCha-MVS
           
 <strong>The code and checkpoints are still being prepared. They will be released when they are sorted out!</strong>
