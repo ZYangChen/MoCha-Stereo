@@ -22,17 +22,9 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 ```bibtex
 @inproceedings{chen2024mocha,
   title={MoCha-Stereo: Motif Channel Attention Network for Stereo Matching},
-	author={Chen, Ziyang and Long, Wei and Yao, He and Zhang, Yongjun and Wang, Bingshu and Qin, Yongbin and Wu, Jia},
-	booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-	year={2024}
-}
-```
-or
-```bibtex
-@article{chen2024mocha,
-  title={MoCha-Stereo: Motif Channel Attention Network for Stereo Matching},
   author={Chen, Ziyang and Long, Wei and Yao, He and Zhang, Yongjun and Wang, Bingshu and Qin, Yongbin and Wu, Jia},
-  journal={arXiv preprint arXiv:2404.06842},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={27768--27777},
   year={2024}
 }
 ```
