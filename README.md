@@ -30,10 +30,21 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 ```
 ## Todo List
  - [CVPR2024] V1 version
-    - [X] Preprint paper
-    - [ ] Code of MoCha-Stereo (1. MoCha-Stereo will be released in this repository in <strong>July, 2024</strong>. 2. For researchers at Guizhou University, I have made the code available in [our internal repository](https://github.com/GZU-ZhangYJ-group/mocha-stereo-early-access). Therefore, you do not need to contact me to get the code, just request access to the repository.)
+    - [X] Paper
+    - [ ] Code of MoCha-Stereo
+ - V2 version
+    - [ ] Preprint manuscript
+    - [ ] Code of MoCha-V2
           
-<strong>The code and checkpoints are still being prepared. They will be released when they are sorted out!</strong>
+MoCha-Stereo will be released in this repository in <strong>July, 2024</strong>. 
+
+For researchers at Guizhou University, I have made the code available in [our internal repository](https://github.com/GZU-ZhangYJ-group/mocha-stereo-early-access). Therefore, you do not need to contact me to get the code, just request access to the repository.
 
 ## Acknowledgements
-This project borrows the code from [<strong>IGEV</strong>](https://github.com/gangweiX/IGEV), [DLNR](https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [GwcNet](https://github.com/xy-guo/GwcNet). We thank the original authors for their excellent works!
+<ul>
+<li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network">DLNR</a>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
+<li>Grateful to Prof. Wenting Li, Prof. Huamin Qu, and anonymous reviewers for their comments on this work.</li>
+<li>This research is supported by Science and Technology Planning Project of Guizhou Province, Department of Science and Technology of Guizhou Province, China (Project No. [2023]159). </li>
+<li>This research is supported by Natural Science Research Project of Guizhou Provincial Department of Education, China (QianJiaoJi[2022]029, QianJiaoHeKY[2021]022).</li>
+</ul>
+
