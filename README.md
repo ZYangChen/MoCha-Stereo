@@ -1,4 +1,4 @@
-# MoCha-Stereo
+# MoCha-Stereo 抹茶算法
 [CVPR2024] The official implementation of "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching".
 
 <div align="center">
