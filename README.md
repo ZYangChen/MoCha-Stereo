@@ -31,7 +31,8 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 ## Todo List
  - [CVPR2024] V1 version
     - [X] Paper
-    - [ ] Code of MoCha-Stereo
+    - [X] Code of MoCha-Stereo
+    - [ ] How to use MoCha-Stereo
  - V2 version
     - [ ] Preprint manuscript
     - [ ] Code of MoCha-V2
