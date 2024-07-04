@@ -17,8 +17,7 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 > MoCha-Stereo: Motif Channel Attention Network for Stereo Matching <br>
 > [Ziyang Chen](https://scholar.google.com/citations?user=t64KgqAAAAAJ&hl=en&oi=sra)†, [Wei Long](https://scholar.google.com/citations?user=CsVTBJoAAAAJ&hl=en)†, [He Yao](https://scholar.google.com/citations?user=c0qjMAMAAAAJ&hl=en)†, [Yongjun Zhang](http://cs.gzu.edu.cn/2021/1210/c17588a163831/page.htm)✱,[Bingshu Wang](https://teacher.nwpu.edu.cn/wangbingshu.html), [Yongbin Qin](http://cs.gzu.edu.cn/2021/1210/c17588a163794/page.htm), [Jia Wu](https://faculty.csu.edu.cn/jiawu/zh_CN/index.htm) <br>
 > CVPR 2024 <br>
-> Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱ <br>
-> Grateful to Prof. [Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), Prof. [Huamin Qu](http://www.huamin.org/), and anonymous reviewers for their comments on this work.
+> Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱
 
 
 
@@ -126,7 +125,7 @@ Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/ta
 ## Acknowledgements
 <ul>
 <li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network">DLNR</a>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo</a>, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
-<li>Grateful to Prof. Wenting Li, Prof. Huamin Qu, and anonymous reviewers for their comments on this project.</li>
+<li>Grateful to Prof. <a href="https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html">Wenting Li</a>, Prof. <a href="http://www.huamin.org/">Huamin Qu</a>, and anonymous reviewers for their comments on "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching" (V1 version of MoCha-Stereo).</li>
 <li>This project is supported by Science and Technology Planning Project of Guizhou Province, Department of Science and Technology of Guizhou Province, China (Project No. [2023]159). </li>
 <li>This project is supported by Natural Science Research Project of Guizhou Provincial Department of Education, China (QianJiaoJi[2022]029, QianJiaoHeKY[2021]022).</li>
 </ul>
