@@ -1,12 +1,16 @@
 # MoCha-Stereo 抹茶算法
 [CVPR2024] The official implementation of "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching".
 
+https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-895c-b5375ef51425
+
+## V1 Version
+
 <div align="center">
     <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Chen_MoCha-Stereo_Motif_Channel_Attention_Network_for_Stereo_Matching_CVPR_2024_paper.html" target='_blank'><img src="https://img.shields.io/badge/CVPR-2024-9cf?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAjCAMAAAADt7LEAAADAFBMVEVMaXF5mcqXsNZ0lceQq9OXsNaHpM9zlMeHo8+dtNh9nMypvt12lsiFos6mu9xxksZvkcZzlMdlicJxksZqjcRukMUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACreRF2AAAAEXRSTlMA1mzoi0mi9BQ1wiRqVgeN+nWbeCoAAAAJcEhZcwAALiMAAC4jAXilP3YAAAJASURBVDiNnZTbduIwDEW3ZJOEwBTo/P8ntnRCCQHb8jzkUhgIrDV6iRN7W0eXCP7HZFotJKiPtsjh7pDfHq5f68YPq1/tNksEFfmsD/9iVt/e0lNvsaxivw/vuV01zxUqQHWsU5w+RbPnDHjg7bBLgCqmOZt854euguRhtfBAt8ugshfxMedNd3l4fyvdta/FWjKaDwkCVF/FK309haGyH4Lp6J4TAMqyFsjNywzcUsEMlcXLk8sbhYUmpOkz8BYA9DhtVwJk0wSklQGnnjotgaFaTV05U+w0UrZ2pG8DkLUqNFUHKGqQV8OpAMSUJlVvzkxdJX0wU/mVsRN7qsuGbMYYkkWTj5OLAGZmcaSigkyRBMBGZ6vagQl3ppQKNjkMrQPZ9IrPGvF/1uPWd4yxKPpsXCpwqRprGwDr/7EquEiSoSlbCdOfp4hC3Ewtf+Xssol4K+8FooQPB243lbmPLABZIbXHB5QDLcG0dEOrG2XGVxJ0Z6iLcah1kHhNZVmAOQdFLVV5oQDLrS2LDIczULl8Sykg5iCm1XZ5XhYtoXPgki4TqhngmLk1B4RUuAxmWkiuzrlSsLoAtD1DH8OdL8Lp4BQwMzRz2DswN176MIcAp7JR5xVQ2SlrAwzcx92M+1EInJMcj6U67LNw4dKt+kjO/UNLFXHxR+F1k1USfe4AdJsB/znMxdXFE/2ieUhdmfxOIF9zY0FnKAN/nJ1WM5TtHSnNTqsZCjF1j/r2hcn7k2k65wuZq/BTW/knm38BWrgDGcRH1DMAAAAASUVORK5CYII="/></a>&nbsp;
     <a href="https://arxiv.org/pdf/2404.06842.pdf" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;
-    <a href="https://openaccess.thecvf.com/content/CVPR2024/supplemental/Chen_MoCha-Stereo_Motif_Channel_CVPR_2024_supplemental.pdf" target='_blank'><img src="https://img.shields.io/badge/Supp.-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp; <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/supplemental/Chen_MoCha-Stereo_Motif_Channel_CVPR_2024_supplemental.pdf" target='_blank'><img src="https://img.shields.io/badge/Supp.-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp; 
     <a href="https://paperswithcode.com/sota/stereo-disparity-estimation-on-kitti-2015?p=mocha-stereo-motif-channel-attention-network" target='_blank'><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-disparity-estimation-on-kitti-2015" /></a>
-	<a href="https://paperswithcode.com/sota/stereo-depth-estimation-on-kitti-2015?p=mocha-stereo-motif-channel-attention-network" target='_blank'><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-depth-estimation-on-kitti-2015" /></a>
+	<!--<a href="https://paperswithcode.com/sota/stereo-depth-estimation-on-kitti-2015?p=mocha-stereo-motif-channel-attention-network" target='_blank'><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-depth-estimation-on-kitti-2015" /></a>-->
 	
 </div>
 
@@ -17,7 +21,6 @@
 > Grateful to Prof. [Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), Prof. [Huamin Qu](http://www.huamin.org/), and anonymous reviewers for their comments on this work.
 
 
-https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-895c-b5375ef51425
 
 ```bibtex
 @inproceedings{chen2024mocha,
@@ -28,18 +31,97 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
   year={2024}
 }
 ```
+
+### Requirements
+
+Python = 3.8
+
+CUDA = 11.3
+
+```Shell
+conda create -n mocha python=3.8
+conda activate mocha
+pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu113
+```
+
+The following libraries are also required
+```Shell
+tqdm
+tensorboard
+opt_einsum
+einops
+scipy
+imageio
+opencv-python-headless
+scikit-image
+timm
+six
+```
+
+### Dataset
+
+To evaluate/train RAFT-stereo, you will need to download the required datasets. 
+* [Sceneflow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html#:~:text=on%20Academic%20Torrents-,FlyingThings3D,-Driving) (Includes FlyingThings3D, Driving, Monkaa)
+* [Middlebury](https://vision.middlebury.edu/stereo/data/)
+* [ETH3D](https://www.eth3d.net/datasets#low-res-two-view-test-data)
+* [KITTI](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
+
+
+By default `stereo_datasets.py` will search for the datasets in these locations. You can create symbolic links to wherever the datasets were downloaded in the `datasets` folder
+
+```Shell
+├── datasets
+    ├── FlyingThings3D
+        ├── frames_cleanpass
+        ├── frames_finalpass
+        ├── disparity
+    ├── Monkaa
+        ├── frames_cleanpass
+        ├── frames_finalpass
+        ├── disparity
+    ├── Driving
+        ├── frames_cleanpass
+        ├── frames_finalpass
+        ├── disparity
+    ├── KITTI
+        ├── KITTI_2015
+            ├── testing
+            ├── training
+        ├── KITTI_2012
+            ├── testing
+            ├── training
+    ├── Middlebury
+        ├── MiddEval3
+    ├── ETH3D
+        ├── two_view_training
+        ├── two_view_training_gt
+        ├── two_view_testing
+
+```
+
+### Training
+
+```Shell
+python train_stereo.py --batch_size 8 --mixed_precision
+```
+
+### Evaluation
+
+To evaluate a trained model on a validation set (e.g. Middlebury), run
+```Shell
+python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_H
+```
+
+Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/checkpoint).
+
 ## Todo List
  - [CVPR2024] V1 version
     - [X] Paper
     - [X] Code of MoCha-Stereo
-    - [ ] How to use MoCha-Stereo
  - V2 version
     - [ ] Preprint manuscript
     - [ ] Code of MoCha-V2
-          
-MoCha-Stereo will be released in this repository in <strong>July, 2024</strong>. 
 
-For researchers at Guizhou University, I have made the code available in [our internal repository](https://github.com/GZU-ZhangYJ-group/mocha-stereo-early-access). Therefore, you do not need to contact me to get the code, just request access to the repository.
 
 ## Acknowledgements
 <ul>
