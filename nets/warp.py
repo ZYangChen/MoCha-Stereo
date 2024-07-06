@@ -51,7 +51,8 @@ def disp_warp(img, disp, padding_mode='border'):
     # assert disp.min() >= 0
 
     grid = meshgrid(img)  # [B, 2, H, W] in image scale
-    offset = torch.cat((disp, torch.zeros_like(disp)), dim=1)  # [B, 2, H, W]
+    # Note that -disp here
+    offset = torch.cat((-disp, torch.zeros_like(disp)), dim=1)  # [B, 2, H, W]
     sample_grid = grid + offset
     sample_grid = normalize_coords(sample_grid)  # [B, H, W, 2] in [-1, 1]
     warped_img = F.grid_sample(img, sample_grid, mode='bilinear', padding_mode=padding_mode)
