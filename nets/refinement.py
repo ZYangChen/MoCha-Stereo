@@ -22,11 +22,6 @@ class FeatureAtt(nn.Module):
 
     def forward(self, feat):
         feat_att = self.feat_att(feat)
-        '''
-        https://blog.csdn.net/amusi1994/article/details/122315076
-        在使用ce loss 或者 bceloss的时候，会有log的操作，在半精度情况下，一些非常小的数值会被直接舍入到0，log(0)等于nan
-        于是回传的梯度因为log而变为nan->网络参数nan-> 每轮输出都变成nan
-        '''
         feat_att = feat_att.float()
         feat = torch.sigmoid(feat_att)*feat
         return feat
@@ -216,28 +211,18 @@ class REMP(nn.Module):
     def forward(self, low_disp, left_img, right_img):
 
         assert low_disp.dim() == 4
-        low_disp = -low_disp
-        # low_disp = low_disp.unsqueeze(1)  # [B, 1, H, W]
         scale_factor = left_img.size(-1) / low_disp.size(-1)
         if scale_factor == 1.0:
             disp = low_disp
         else:
             disp = F.interpolate(low_disp, size=left_img.size()[-2:], mode='bilinear', align_corners=False)
             disp = disp * scale_factor
-        del low_disp
-        # Warp right image to left view with current disparity
         warped_right = disp_warp(right_img, disp)[0]  # [B, 3, H, W]
-        # save_feature_map_as_image(warped_right, 'WR.png')
         flaw = warped_right - left_img  # [B, 3, H, W]
-        # print('flaw',flaw.shape)
-        # save_feature_map_as_image(flaw, 'RE.png')
-        del warped_right
         ref_flaw = torch.cat((flaw, left_img), dim=1)  # [B, 6, H, W]
-        del flaw
         ref_flaw = self.conv1(ref_flaw)  # [B, 16, H, W]
         disp_fea = self.conv2(disp)  # [B, 16, H, W]
         x = torch.cat((ref_flaw, disp_fea), dim=1)  # [B, 32, H, W]
-        del ref_flaw, disp_fea
         x = self.conv_start(x)  # [B, 32, H, W]
 
         x = self.RefinementBlock(x) # [B, 32, H, W]
@@ -249,13 +234,5 @@ class REMP(nn.Module):
         x = self.final_conv(x)  # [B, 1, H, W]
 
         disp = F.relu(disp + x, inplace=True)  # [B, 1, H, W]
-        # warped_right = disp_warp(right_img, new_disp)[0]  # [B, C, H, W]
-        # new_flaw = warped_right - left_img  # [B, C, H, W]
-        # new_flaw = torch.sum(new_flaw, dim=1)
-        # flaw = torch.sum(flaw, dim=1)
-        # # print(new_disp.shape)
-        # B, _, H, W = left_img.shape
-        # disp = torch.where((new_flaw < flaw).view(B, 1, H, W),
-        #                    new_disp, disp)
 
         return -disp
