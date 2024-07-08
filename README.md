@@ -106,9 +106,9 @@ python train_stereo.py --batch_size 8 --mixed_precision
 
 ### Evaluation
 
-To evaluate a trained model on a validation set (e.g. Middlebury), run
+To evaluate a trained model on a validation set (e.g. Middlebury full resolution), run
 ```Shell
-python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_H
+python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_F
 ```
 
 Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/checkpoint).
