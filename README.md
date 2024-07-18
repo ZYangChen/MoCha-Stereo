@@ -113,9 +113,10 @@ python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middl
 
 Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/checkpoint).
 
-### FAQ
-1. Weight for "tf_efficientnetv2_l"
-Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9)
+## FAQ
+Q1. Weight for "tf_efficientnetv2_l"?
+
+A1: Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9)
 
 ## Todo List
  - [CVPR2024] V1 version
