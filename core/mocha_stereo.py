@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from core.update import BasicMultiUpdateBlock, LSTMMultiUpdateBlock
-from core.extractor import MultiBasicEncoder, Feature, SpatialInfEncoder
+from core.extractor import MultiBasicEncoder, Feature
 from core.geometry import Combined_Geo_Encoding_Volume
 from core.submodule import *
 import time
