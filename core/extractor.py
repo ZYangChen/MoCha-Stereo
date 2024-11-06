@@ -341,18 +341,6 @@ class Feature(SubModule):
                                   features_only=True,
                                   pretrained_cfg=config)
         chans = [32, 64, 96, 224, 384]
-        '''
-        # mobilenetv2_100   12.60M 12598114
-        config = {'url': './config/mobilenetv2_100_ra-b33bc2c4.pth', 'input_size': (3, 224, 224),
-                      'pool_size': (7, 7),
-                      'interpolation': 'bicubic', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225),
-                      'first_conv': 'conv_stem', 'architecture': 'mobilenetv2_100'}
-        model = timm.create_model('mobilenetv2_100',
-                                      pretrained=pretrained,
-                                      features_only=True,
-                                      pretrained_cfg=config)
-        chans = [16, 24, 32, 96, 160]
-        #'''
         layers = [1,2,3,5,6]
         self.conv_stem = model.conv_stem
         self.bn1 = model.bn1
