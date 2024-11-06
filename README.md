@@ -53,7 +53,7 @@ scipy
 imageio
 opencv-python-headless
 scikit-image
-timm
+timm == 0.6.5
 six
 ```
 
