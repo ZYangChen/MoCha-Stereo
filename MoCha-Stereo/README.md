@@ -113,23 +113,9 @@ python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middl
 
 Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/checkpoint).
 
-## FAQ
-Q1. Weight for "tf_efficientnetv2_l"?
-
-A1: Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9).
-
-## Todo List
- - [CVPR2024] V1 version
-    - [X] Paper
-    - [X] Code of MoCha-Stereo
- - V2 version
-    - [ ] Preprint manuscript
-    - [ ] Code of MoCha-V2
-
-
 ## Acknowledgements
 <ul>
-<li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo</a>, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
+<li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network">DLNR</a>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo</a>, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
 <li>Grateful to Prof. <a href="https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html">Wenting Li</a>, Prof. <a href="http://www.huamin.org/">Huamin Qu</a>, Dr. <a href="https://github.com/Junda24">Junda Cheng</a>, Mr./Mrs. "DLUTTengYH" and anonymous reviewers for their comments on "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching" (V1 version of MoCha-Stereo).</li>
 <li>This project is supported by Science and Technology Planning Project of Guizhou Province, Department of Science and Technology of Guizhou Province, China (Project No. [2023]159). </li>
 <li>This project is supported by Natural Science Research Project of Guizhou Provincial Department of Education, China (QianJiaoJi[2022]029, QianJiaoHeKY[2021]022).</li>
