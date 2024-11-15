@@ -31,87 +31,6 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 }
 ```
 
-### Requirements
-
-Python = 3.8
-
-CUDA = 11.3
-
-```Shell
-conda create -n mocha python=3.8
-conda activate mocha
-pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu113
-```
-
-The following libraries are also required
-```Shell
-tqdm
-tensorboard
-opt_einsum
-einops
-scipy
-imageio
-opencv-python-headless
-scikit-image
-timm == 0.6.5
-six
-```
-
-### Dataset
-
-To evaluate/train RAFT-stereo, you will need to download the required datasets. 
-* [Sceneflow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html#:~:text=on%20Academic%20Torrents-,FlyingThings3D,-Driving) (Includes FlyingThings3D, Driving, Monkaa)
-* [Middlebury](https://vision.middlebury.edu/stereo/data/)
-* [ETH3D](https://www.eth3d.net/datasets#low-res-two-view-test-data)
-* [KITTI](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
-
-
-By default `stereo_datasets.py` will search for the datasets in these locations. You can create symbolic links to wherever the datasets were downloaded in the `datasets` folder
-
-```Shell
-├── datasets
-    ├── FlyingThings3D
-        ├── frames_cleanpass
-        ├── frames_finalpass
-        ├── disparity
-    ├── Monkaa
-        ├── frames_cleanpass
-        ├── frames_finalpass
-        ├── disparity
-    ├── Driving
-        ├── frames_cleanpass
-        ├── frames_finalpass
-        ├── disparity
-    ├── KITTI
-        ├── KITTI_2015
-            ├── testing
-            ├── training
-        ├── KITTI_2012
-            ├── testing
-            ├── training
-    ├── Middlebury
-        ├── MiddEval3
-    ├── ETH3D
-        ├── two_view_training
-        ├── two_view_training_gt
-        ├── two_view_testing
-
-```
-
-### Training
-
-```Shell
-python train_stereo.py --batch_size 8 --mixed_precision
-```
-
-### Evaluation
-
-To evaluate a trained model on a validation set (e.g. Middlebury full resolution), run
-```Shell
-python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_F
-```
-
-Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/checkpoint).
 
 ## FAQ
 Q1. Weight for "tf_efficientnetv2_l"?
@@ -129,9 +48,7 @@ A1: Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](htt
 
 ## Acknowledgements
 <ul>
-<li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo</a>, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
+<li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network">DLNR</a>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo</a>, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
 <li>Grateful to Prof. <a href="https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html">Wenting Li</a>, Prof. <a href="http://www.huamin.org/">Huamin Qu</a>, Dr. <a href="https://github.com/Junda24">Junda Cheng</a>, Mr./Mrs. "DLUTTengYH" and anonymous reviewers for their comments on "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching" (V1 version of MoCha-Stereo).</li>
-<li>This project is supported by Science and Technology Planning Project of Guizhou Province, Department of Science and Technology of Guizhou Province, China (Project No. [2023]159). </li>
-<li>This project is supported by Natural Science Research Project of Guizhou Provincial Department of Education, China (QianJiaoJi[2022]029, QianJiaoHeKY[2021]022).</li>
 </ul>
 
