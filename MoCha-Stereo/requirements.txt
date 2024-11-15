@@ -1,0 +1,10 @@
+tqdm
+tensorboard
+opt_einsum
+einops
+scipy
+imageio
+opencv-python-headless
+scikit-image
+timm==0.6.5
+six
