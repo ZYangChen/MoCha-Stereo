@@ -1,1 +1,1 @@
-nohup python ./train_stereo.py --batch_size 8 --n_downsample 2 --num_steps 200000 --mixed_precision > ./mocha-v1.2.log 2>&1 &
+python ./train_stereo.py --batch_size 8 --n_downsample 2 --num_steps 200000 --mixed_precision
