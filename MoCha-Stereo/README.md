@@ -96,13 +96,15 @@ By default `stereo_datasets.py` will search for the datasets in these locations.
 		├── trainingF
 		├── trainingH
 		├── trainingQ
-		├── [official_train.txt](https://github.com/ZYangChen/MoCha-Stereo/blob/main/official_train.txt)
+		├── official_train.txt
     ├── ETH3D
         ├── two_view_training
         ├── two_view_training_gt
         ├── two_view_testing
 
 ```
+
+"official_train.txt" is available at [here](https://github.com/ZYangChen/MoCha-Stereo/issues/16).
 
 ### Training
 
