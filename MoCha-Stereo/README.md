@@ -54,6 +54,11 @@ timm == 0.6.5
 six
 ```
 
+You can install them via
+```Shell
+pip install -r requirements.txt
+```
+
 ### Dataset
 
 To evaluate/train RAFT-stereo, you will need to download the required datasets. 
