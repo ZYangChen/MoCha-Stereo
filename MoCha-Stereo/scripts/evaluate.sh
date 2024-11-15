@@ -1,0 +1,1 @@
+python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_F
