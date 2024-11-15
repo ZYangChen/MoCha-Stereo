@@ -93,6 +93,10 @@ By default `stereo_datasets.py` will search for the datasets in these locations.
             ├── training
     ├── Middlebury
         ├── MiddEval3
+		├── trainingF
+		├── trainingH
+		├── trainingQ
+		├── official_train.txt
     ├── ETH3D
         ├── two_view_training
         ├── two_view_training_gt
@@ -109,6 +113,12 @@ bash ./scripts/train.sh
 ### Evaluation
 
 To evaluate a trained model on a validation set (e.g. Middlebury full resolution), run
+```Shell
+bash evaluate.sh
+```
+
+or
+
 ```Shell
 python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_F
 ```
