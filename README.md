@@ -35,7 +35,7 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 ## FAQ
 Q1. Weight for "tf_efficientnetv2_l"?
 
-A1: Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9).
+A1: You can download it [here](https://github.com/ZYangChen/MoCha-Stereo/releases/download/tf_efficientnetv2_l-d664b728/tf_efficientnetv2_l-d664b728.pth). Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9).
 
 ## Todo List
  - [CVPR2024] V1 version
