@@ -49,6 +49,6 @@ A1: You can download it [here](https://github.com/ZYangChen/MoCha-Stereo/release
 ## Acknowledgements
 <ul>
 <li>This project borrows the code from <strong><a href="https://github.com/gangweiX/IGEV">IGEV</a></strong>, <a href="https://github.com/David-Zhao-1997/High-frequency-Stereo-Matching-Network">DLNR</a>, <a href="https://github.com/princeton-vl/RAFT-Stereo">RAFT-Stereo</a>, <a href="https://github.com/xy-guo/GwcNet">GwcNet</a>. We thank the original authors for their excellent works!</li>
-<li>Grateful to Prof. <a href="https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html">Wenting Li</a>, Prof. <a href="http://www.huamin.org/">Huamin Qu</a>, Dr. <a href="https://github.com/Junda24">Junda Cheng</a>, Mr./Mrs. "DLUTTengYH" and anonymous reviewers for their comments on "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching" (V1 version of MoCha-Stereo).</li>
+<li>Grateful to Prof. <a href="https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html">Wenting Li</a>, Prof. <a href="http://www.huamin.org/">Huamin Qu</a>, Dr. <a href="https://github.com/Junda24">Junda Cheng</a>, Mr./Mrs. "DLUTTengYH", Mr./Mrs. "YHCks", and anonymous reviewers for their comments on "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching" (V1 version of MoCha-Stereo).</li>
 </ul>
 
