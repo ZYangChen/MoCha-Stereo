@@ -125,7 +125,7 @@ or
 python evaluate_stereo.py --restore_ckpt models/mocha-stereo.pth --dataset middlebury_F
 ```
 
-Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/checkpoint).
+Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/download/MoCha-Stereo-V1/mocha-stereo.pth).
 
 ## Acknowledgements
 <ul>
