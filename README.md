@@ -35,7 +35,7 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 ## FAQ
 **Q1: Weight for "tf_efficientnetv2_l"?** (Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9). )
 
-A1: You can download it [here](https://github.com/ZYangChen/MoCha-Stereo/releases/download/tf_efficientnetv2_l-d664b728/tf_efficientnetv2_l-d664b728.pth). Moreover, the pretrained weights on the Scene Flow dataset are available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/MoCha-Stereo-V1).
+A1: You can download it [here](https://github.com/ZYangChen/MoCha-Stereo/releases/download/tf_efficientnetv2_l-d664b728/tf_efficientnetv2_l-d664b728.pth). Moreover, the weight pretrained on the Scene Flow dataset is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/tag/MoCha-Stereo-V1).
 
 **Q2: How to visualize the disparity map?** (Please refer to issue [#15 "询问可视化问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/15), and [#10 "请问这个项目如何可视化推理的结果呢"](https://github.com/ZYangChen/MoCha-Stereo/issues/10))
 
