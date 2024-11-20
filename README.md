@@ -1,6 +1,8 @@
 # MoCha-Stereo 抹茶算法
 [CVPR2024] The official implementation of "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching".
 
+[Arxiv] The extension version of MoCha-Stereo. "Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph"
+
 https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-895c-b5375ef51425
 
 ## V1 Version
@@ -31,6 +33,17 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 }
 ```
 
+## V2 Version
+
+<div align="center">
+	<a href="https://arxiv.org/abs/2411.12426" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;
+	<a href="https://paperswithcode.com/sota/stereo-disparity-estimation-on-middlebury?p=mocha-stereo-motif-channel-attention-network" target='_blank'><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-disparity-estimation-on-middlebur" /></a>
+</div>
+
+> Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph <br>
+> [Ziyang Chen](https://scholar.google.com/citations?user=t64KgqAAAAAJ&hl=en&oi=sra), [Yongjun Zhang](http://cs.gzu.edu.cn/2021/1210/c17588a163831/page.htm)✱,[Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), [Bingshu Wang](https://teacher.nwpu.edu.cn/wangbingshu.html), [Yong Zhao](https://www.ece.pku.edu.cn/info/1045/2131.htm), [C. L. Philip Chen](http://dsail.vip/PersonInCharge.html) <br>
+> Arxiv Report <br>
+> Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱
 
 ## FAQ
 **Q1: Weight for "tf_efficientnetv2_l"?** (Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9). )
@@ -52,7 +65,7 @@ The libary "matplotlib"  is required for visualizing the disparity map.
     - [X] Paper
     - [X] Code of MoCha-Stereo
  - V2 version
-    - [ ] Preprint manuscript
+    - [X] Preprint manuscript
     - [ ] Code of MoCha-V2
 
 
