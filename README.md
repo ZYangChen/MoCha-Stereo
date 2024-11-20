@@ -39,7 +39,7 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-disparity-estimation-on-middlebury)](https://paperswithcode.com/sota/stereo-disparity-estimation-on-middlebury?p=mocha-stereo-motif-channel-attention-network)
 
 > Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph <br>
-> [Ziyang Chen](https://scholar.google.com/citations?user=t64KgqAAAAAJ&hl=en&oi=sra), [Yongjun Zhang](http://cs.gzu.edu.cn/2021/1210/c17588a163831/page.htm)✱,[Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), [Bingshu Wang](https://teacher.nwpu.edu.cn/wangbingshu.html), [Yong Zhao](https://www.ece.pku.edu.cn/info/1045/2131.htm), [C. L. Philip Chen](http://dsail.vip/PersonInCharge.html) <br>
+> [Ziyang Chen](https://scholar.google.com/citations?user=t64KgqAAAAAJ&hl=en&oi=sra), [Yongjun Zhang](http://cs.gzu.edu.cn/2021/1210/c17588a163831/page.htm)✱,[Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), [Bingshu Wang](https://teacher.nwpu.edu.cn/wangbingshu.html), [Yong Zhao](https://www.ece.pku.edu.cn/info/1045/2131.htm), [C. L. Philip Chen](https://www.ieeeiciea.org/2023/Prof.PhilipChen.html) <br>
 > Arxiv Report <br>
 > Correspondence: ziyangchen2000@gmail.com; zyj6667@126.com✱
 
