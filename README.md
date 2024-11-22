@@ -43,6 +43,15 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 > Arxiv Report <br>
 > Contact us: ziyangchen2000@gmail.com; zyj6667@126.com✱
 
+```bibtex
+@article{chen2024motif,
+  title={Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph},
+  author={Chen, Ziyang and Zhang, Yongjun and Li, Wenting and Wang, Bingshu and Zhao, Yong and Chen, CL},
+  journal={arXiv preprint arXiv:2411.12426},
+  year={2024}
+}
+```
+
 ## FAQ
 **Q1: Weight for "tf_efficientnetv2_l"?** (Please refer to issue [#6 "关于tf_efficientnetv2_l检查点的问题"](https://github.com/ZYangChen/MoCha-Stereo/issues/6), [#8 "预训练权重"](https://github.com/ZYangChen/MoCha-Stereo/issues/8), and [#9 "code error"](https://github.com/ZYangChen/MoCha-Stereo/issues/9). )
 
