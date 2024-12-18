@@ -73,15 +73,12 @@ By default `stereo_datasets.py` will search for the datasets in these locations.
 ```Shell
 ├── datasets
     ├── FlyingThings3D
-        ├── frames_cleanpass
         ├── frames_finalpass
         ├── disparity
     ├── Monkaa
-        ├── frames_cleanpass
         ├── frames_finalpass
         ├── disparity
     ├── Driving
-        ├── frames_cleanpass
         ├── frames_finalpass
         ├── disparity
     ├── KITTI
