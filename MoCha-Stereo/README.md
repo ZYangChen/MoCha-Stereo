@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ### Dataset
 
-To evaluate/train RAFT-stereo, you will need to download the required datasets. 
+To evaluate/train MoCha-stereo, you will need to download the required datasets. 
 * [Sceneflow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html#:~:text=on%20Academic%20Torrents-,FlyingThings3D,-Driving) (Includes FlyingThings3D, Driving, Monkaa)
 * [Middlebury](https://vision.middlebury.edu/stereo/data/)
 * [ETH3D](https://www.eth3d.net/datasets#low-res-two-view-test-data)
