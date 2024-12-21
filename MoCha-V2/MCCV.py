@@ -126,9 +126,9 @@ class DCT_motif(nn.Module):
         return LL
 
 
-class TwoViewFeature(nn.Module):
+class mccv(nn.Module):
     def __init__(self, mixed_precision):
-        super(TwoViewFeature, self).__init__()
+        super(mccv, self).__init__()
         self.mixed_precision = mixed_precision
         chans = [256,192,448,384]
         laten_chans = 8
