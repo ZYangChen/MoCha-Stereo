@@ -58,10 +58,10 @@ By default `stereo_datasets.py` will search for the datasets in these locations.
             ├── training
     ├── Middlebury
         ├── MiddEval3
-		        ├── trainingF
-		        ├── trainingH
-		        ├── trainingQ
-		    ├── official_train.txt
+		├── trainingF
+		├── trainingH
+		├── trainingQ
+	├── official_train.txt
         ├── 2005
         ├── 2006
         ├── 2014
