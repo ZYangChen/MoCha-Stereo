@@ -51,11 +51,11 @@ By default `stereo_datasets.py` will search for the datasets in these locations.
         ├── disparity
     ├── KITTI
         ├── KITTI_2015
-            ├── testing
-            ├── training
+        	├── testing
+	        ├── training
         ├── KITTI_2012
-            ├── testing
-            ├── training
+        	├── testing
+		├── training
     ├── Middlebury
         ├── MiddEval3
 		├── trainingF
