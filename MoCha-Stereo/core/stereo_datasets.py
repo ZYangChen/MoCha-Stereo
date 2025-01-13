@@ -371,10 +371,10 @@ def fetch_dataloader(args):
         if re.compile("middlebury_.*").fullmatch(dataset_name):
             new_dataset = Middlebury(aug_params, split=dataset_name.replace('middlebury_',''))
         elif dataset_name == 'sceneflow':
-            #clean_dataset = SceneFlowDatasets(aug_params, dstype='frames_cleanpass')
+            clean_dataset = SceneFlowDatasets(aug_params, dstype='frames_cleanpass')
             final_dataset = SceneFlowDatasets(aug_params, dstype='frames_finalpass')
-            #new_dataset = (clean_dataset*4) + (final_dataset*4)
-            new_dataset = final_dataset
+            new_dataset = (clean_dataset*4) + (final_dataset*4)
+            #new_dataset = final_dataset
             logging.info(f"Adding {len(new_dataset)} samples from SceneFlow")
         elif 'kitti' in dataset_name:
             new_dataset = KITTI(aug_params)
