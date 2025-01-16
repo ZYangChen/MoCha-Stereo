@@ -68,14 +68,6 @@ python demo.py --restore_ckpt ./model/mocha-stereo.pth -l ./datasets/Middlebury/
 
 The libary "matplotlib"  is required for visualizing the disparity map.
 
-## Todo List
- - [CVPR2024] V1 version
-    - [X] Paper
-    - [X] Code of MoCha-Stereo
- - V2 version
-    - [X] Preprint manuscript
-    - [ ] Code of MoCha-V2
-
 
 ## Acknowledgements
 <ul>
