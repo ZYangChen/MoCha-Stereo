@@ -128,5 +128,6 @@ Weight is available [here](https://github.com/ZYangChen/MoCha-Stereo/releases/do
 <ul>
 <li>This project is supported by Science and Technology Planning Project of Guizhou Province, Department of Science and Technology of Guizhou Province, China (Project No. [2023]159). </li>
 <li>This project is supported by Natural Science Research Project of Guizhou Provincial Department of Education, China (QianJiaoJi[2022]029, QianJiaoHeKY[2021]022).</li>
+<li>Grateful to Prof. <a href="https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html">Wenting Li</a>, Prof. <a href="http://www.huamin.org/">Huamin Qu</a>, Dr. <a href="https://github.com/Junda24">Junda Cheng</a>, Mr./Mrs. "DLUTTengYH", Mr./Mrs. "YHCks", and anonymous reviewers for their comments on "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching" (V1 version of MoCha-Stereo).</li>
 </ul>
 
