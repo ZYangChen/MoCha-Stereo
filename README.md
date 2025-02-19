@@ -9,7 +9,7 @@
 [Arxiv] The extension version of MoCha-Stereo. "Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph"
 
 <div align="center">
-  <img width="80%", src="./mocha-robot2.jpg">
+  <img width="80%", src="./mocha-robot2.png">
 </div>
 
 ## V1 Version
