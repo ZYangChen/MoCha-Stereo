@@ -1,11 +1,14 @@
 # MoCha-Stereo 抹茶算法
 [CVPR2024] The official implementation of "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching".
 
-[Arxiv] The extension version of MoCha-Stereo. "Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph"
 
 <div align="center">
   <img width="80%", src="./mocha-robot1.jpg">
 </div>
+
+[Arxiv] The extension version of MoCha-Stereo. "Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph"
+
+
 
 ## V1 Version
 
