@@ -1,16 +1,11 @@
 # MoCha-Stereo 抹茶算法
-[CVPR2024] The official implementation of "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching".
-
++ [CVPR2024] The official implementation of "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching".
++ [arXiv] The extension version of MoCha-Stereo. "Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph"
 
 <div align="center">
   <img width="80%", src="./mocha-robot1.jpg">
 </div>
 
-[Arxiv] The extension version of MoCha-Stereo. "Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph"
-
-<div align="center">
-  <img width="80%", src="./mocha-robot2.png">
-</div>
 
 ## V1 Version
 
@@ -47,6 +42,10 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 <a href="https://zyangchen.github.io/project_page/mocha_project/index.html"><img src="https://img.shields.io/badge/Project-Page-blue.svg"></a>
 <a href="https://arxiv.org/abs/2411.12426" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-disparity-estimation-on-middlebury)](https://paperswithcode.com/sota/stereo-disparity-estimation-on-middlebury?p=mocha-stereo-motif-channel-attention-network)
+
+<div align="center">
+  <img width="80%", src="./mocha-robot2.png">
+</div>
 
 > Motif Channel Opened in a White-Box: Stereo Matching via Motif Correlation Graph <br>
 > [Ziyang Chen](https://scholar.google.com/citations?user=t64KgqAAAAAJ&hl=en&oi=sra), [Yongjun Zhang](http://cs.gzu.edu.cn/2021/1210/c17588a163831/page.htm)✱,[Wenting Li](https://www.gzcc.edu.cn/jsjyxxgcxy/contents/3205/3569.html), [Bingshu Wang](https://teacher.nwpu.edu.cn/wangbingshu.html), [Yong Zhao](https://www.ece.pku.edu.cn/info/1045/2131.htm), [C. L. Philip Chen](https://www.ieeeiciea.org/2023/Prof.PhilipChen.html) <br>
