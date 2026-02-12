@@ -40,7 +40,7 @@ https://github.com/ZYangChen/MoCha-Stereo/assets/108012397/2ed414fe-d182-499b-89
 
 ## V2 Version
 
-<a href="http://chenziyang.cn/project_page/mocha_project/index.html"><img src="https://img.shields.io/badge/Project-Page-blue.svg"></a>
+<a href="https://chenziyang.cn/project_page/mocha_project/index.html"><img src="https://img.shields.io/badge/Project-Page-blue.svg"></a>
 <a href="https://arxiv.org/abs/2411.12426" target='_blank'><img src="https://img.shields.io/badge/Paper-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;
 <a href="https://kns.cnki.net/kcms2/article/abstract?v=VkQzIsHyPdiXOZ6uXUyfivU9sw0L6aCigQddB8XY3kQv2xxDD_PZgfE930ZrL792l6Ja8IZ4Q_rHF8P3ZJmixyHK5a8qnFYkwDoNMPsQqWXyV9Onp09yYpnB13Ge2IcnPc0ZBSK2p02CFOWrMTXb3KGkB7IK42dsaQcZl4PJP1pd7ZqVhcObiu58-VpKHCNl&uniplatform=NZKPT&language=CHS" target='_blank'><img src="https://img.shields.io/badge/中文版-PDF-f5cac3?logo=adobeacrobatreader&logoColor=red"/></a>&nbsp;
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mocha-stereo-motif-channel-attention-network/stereo-disparity-estimation-on-middlebury)](https://paperswithcode.com/sota/stereo-disparity-estimation-on-middlebury?p=mocha-stereo-motif-channel-attention-network)
